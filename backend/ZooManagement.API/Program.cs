@@ -5,12 +5,23 @@ using Swashbuckle.AspNetCore.Annotations; // optional für [SwaggerOperation]
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy => policy.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
 // ---------------------------
 // Services registrieren
 // ---------------------------
 
 // Minimal API Explorer (für Endpunkte)
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddControllers(); // Ermöglicht die Nutzung von [ApiController]
+
 
 // Swagger / OpenAPI
 builder.Services.AddSwaggerGen(c =>
@@ -83,4 +94,6 @@ app.MapPost("/animals", (dynamic newAnimal) =>
 // ---------------------------
 // App starten
 // ---------------------------
+app.MapControllers();
+
 app.Run();

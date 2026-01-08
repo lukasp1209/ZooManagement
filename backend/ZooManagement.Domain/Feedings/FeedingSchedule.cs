@@ -8,6 +8,7 @@ public class FeedingSchedule : Entity
     public Animal Animal { get; private set; }
     public FoodType FoodType { get; private set; }
     public TimeSpan FeedingTime { get; private set; }
+    public DateTime Date { get; set; }
 
     protected FeedingSchedule() { }
 
