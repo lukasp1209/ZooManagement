@@ -1,0 +1,14 @@
+Z:\ZooManagement\bin\Debug\net8.0\ZooManagement.exe
+Z:\ZooManagement\bin\Debug\net8.0\ZooManagement.deps.json
+Z:\ZooManagement\bin\Debug\net8.0\ZooManagement.runtimeconfig.json
+Z:\ZooManagement\bin\Debug\net8.0\ZooManagement.dll
+Z:\ZooManagement\bin\Debug\net8.0\ZooManagement.pdb
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.GeneratedMSBuildEditorConfig.editorconfig
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.AssemblyInfoInputs.cache
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.AssemblyInfo.cs
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.csproj.CoreCompileInputs.cache
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.dll
+Z:\ZooManagement\obj\Debug\net8.0\refint\ZooManagement.dll
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.pdb
+Z:\ZooManagement\obj\Debug\net8.0\ZooManagement.genruntimeconfig.cache
+Z:\ZooManagement\obj\Debug\net8.0\ref\ZooManagement.dll
